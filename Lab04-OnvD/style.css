@@ -1,0 +1,262 @@
+*{
+    text-decoration: none;
+}
+
+.navbar{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    color: white;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+    display: inline;
+}
+
+li a{
+    display: inline-block;
+    color: grey;
+    text-align: center;
+    font-style: normal;
+    margin-left: 50px;
+    font-size: 20px;
+    font-variant: all-small-caps;
+    font-weight: bold;
+}
+
+.logo{
+    padding-right: 400px;
+
+}
+
+.active{
+    color: lime;
+}
+
+header{
+    border-bottom: solid;
+
+}
+
+.content{
+    background: darkblue;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.right {
+    float: right;
+}
+
+.left{
+    color: white;
+    font-size: 35px;
+    margin-top: 100px;
+    margin-right: 100px;
+}
+
+.left h2{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 150px;
+}
+
+.content1{
+    background: mediumseagreen;
+}
+
+.right img{
+    height: 450px;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.flex1 img{
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.flex1 {
+    display: flex;
+    text-align: justify;
+}
+
+.flex1 p{
+    margin-left: 20px;
+}
+
+.content2{
+    background: mediumseagreen;
+    margin-bottom: 10px;
+}
+
+.flex2{
+    display: flex;
+
+}
+
+.flex2 img{
+    border-radius: 20px;
+    width: 250px;
+    height: 150px;
+    margin-top: 15px;
+}
+
+.flex2 p{
+    text-align: justify;
+    margin-right: 20px;
+}
+
+footer{
+    border-top: solid black;
+
+}
+
+footer .navbar li {
+    display: flex;
+
+}
+
+.content3{
+    background:springgreen;
+    margin-top: 10px;
+}
+
+.contact{
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-right: 50px;
+
+}
+
+.content4{
+
+    background: lightgray;
+}
+
+iframe{
+    width: 400px;
+    height: 200px;
+    margin: -320px -30px 2500px 730px;
+    position: absolute;
+
+}
+
+.pasus1{
+    margin-right: 100px;
+    margin-top: 10px;
+    font-size: 15px;
+    padding-bottom: 100px;
+}
+
+.navbarhac {
+    margin-left: 800px;
+    margin-top: -40px;
+
+}
+
+#plevo{
+    margin-left: 100px;
+}
+
+#gic{
+    padding-top: 25px;
+    color: white;
+
+}
+
+.mapainfo{
+    padding-bottom: 50px;
+    padding-left: 880px;
+    padding-top: -100px;
+    padding-right: -100px;
+    margin-top: -90px;
+    margin-bottom: 40px;
+
+}
+
+.content5{
+    background:springgreen;
+    margin-top: 10px;
+}
+
+
+.about{
+    color: white;
+    padding-top: 1px;
+    padding-bottom: 2px;
+    padding-right: 50px;
+}
+
+.contents{
+    background: lightgray;
+    padding-bottom: 20px;
+}
+
+#naslov{
+    border-top: groove white;
+    border-bottom: groove white;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    margin-top:20px;
+}
+
+.person{
+    background-color: white;
+    border-radius: 1rem;
+    width: 17rem;
+    height: 25rem;
+    margin-right: 40px;
+    margin-left: -20px;
+}
+
+.lista{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 5rem 0px 5rem;
+}
+
+.covek1{
+    position: relative;
+    margin:12px;
+    margin-bottom: -26px;
+}
+
+.ime{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+    border-bottom: solid 2px black;
+    padding: 20px 20px 20px 20px
+}
+
+.objasnuvanje{
+    text-align: justify;
+    font-weight: bold;
+    padding: 0px 20px 10px 20px;
+    margin-top: -15px;
+    margin-bottom: -5px;
+}
