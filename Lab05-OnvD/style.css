@@ -1,0 +1,195 @@
+ *{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #7ddf96;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+
+ul{
+    margin-top: -30px;
+    margin-right: 50px;
+}
+
+li a{
+    display: inline-block;
+    text-align: center;
+    font-variant: small-caps;
+    font-family: Arial;
+    font-weight: bold;
+    color: #505978;
+    margin-left: 35px;
+
+}
+
+.active{
+    background-color: #505978;
+    color: white;
+    padding: 10px 35px 10px 35px;
+    border-radius: 2px;
+}
+
+.zelennaslov{
+    color: #7ddf96;
+    letter-spacing: 2px;
+    font-family: Arial;
+}
+
+header{
+    background-color: white;
+    padding:20px;
+    height: 30px;
+}
+
+.naslovgore a{
+    color: black;
+    letter-spacing: 1px;
+    font-family: Arial;
+    font-size: 22px;
+}
+
+.navbar{
+    float: right;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#naslovtabela{
+   text-align: center;
+    margin-top: 50px;
+}
+
+.tableroww{
+    font-weight: bold;
+}
+
+table{
+    border-collapse: collapse;
+    border: 2px solid black;
+    text-align: center;
+    margin: auto;
+}
+
+tr td{
+    border: 2px solid black;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+#naslov{
+    font-weight: bold;
+    text-align: center;
+    font-family: Arial;
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+
+form{
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-left: 20px;
+    padding: 35px;
+    margin-bottom: 100px;
+
+}
+
+.nasloviformi{
+
+    font-size:20px ;
+    font-family: Arial;
+
+}
+
+input{
+    margin-top: 12px;
+    margin-bottom: 12px;
+    border-radius: 5px;
+    border-color: #ececec;
+    padding: 10px 300px 10px 20px;
+    cursor: pointer;
+    width: 250px;
+
+}
+
+select{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    cursor: pointer;
+    width:570px ;
+}
+
+.levo{
+    width: 414px;
+}
+
+.desno {
+    float: right;
+    margin-top: -318px;
+    margin-right: 5px;
+    margin-left: 5px;
+
+}
+
+.drzavi{
+    border-radius: 3px;
+    padding: 10px 200px 10px 5px;
+}
+
+
+button{
+    background-color: #2fab2f;
+    padding: 10px 200px 10px 200px;
+    border-radius: 5px;
+    color: white;
+    border-style: none;
+    margin-left: 350px;
+    cursor: pointer;
+
+}
+
+form textarea{
+    width: 570px;
+    height: 200px;
+    border-radius: 2px;
+    border: 1px solid gray;
+    margin-bottom: 1em;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.cf{
+    margin-top: -43px;
+    margin-left: 20px;
+}
+
+.cv{
+    font-size:20px ;
+    font-family: Arial;
+    margin-top: 10px;
+}
+
+.textarea{
+    margin-bottom: -5px;
+}
+
+iframe{
+    width: 1220px;
+    height: 450px;
+    margin-right: 20px;
+    margin-left: 20px;
+    border: 15px solid #f2f2f2;
+    border-radius: 5px;
+}
+
+ .mapa{
+    margin-top: -10px;
+}
