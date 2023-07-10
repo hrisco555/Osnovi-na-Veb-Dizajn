@@ -1,0 +1,250 @@
+/*za site (univerzalen selektor)*/
+*{
+    text-decoration: none; /*da nema nisto na tekstot-nit hyperlink...)*/
+}
+
+body{
+    background-color: white;
+    width: 800px;
+    height: 600px;
+
+}
+
+
+.Menu{
+    background:linear-gradient(#92CD00,green);
+    font-family: Times New Roman;
+    /*padding-right: 4px;*/
+    /*padding-left: 4px;*/
+    padding-left: 50px;
+    padding-right: 15px;
+    padding-top: -10px;
+    padding-bottom: -10px;
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 1px;
+    margin-top: 30px;
+}
+
+.navbar{
+
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+/*podesuvanje na listata*/
+li{
+    list-style: none; /*da nema bullets*/
+    display: inline; /*vo edna linija */
+
+}
+
+/*podesuvanje na tekstot vo listata*/
+li a{
+    color: white;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: bold;
+    /*margin-right: 25px; !*mesto pomegju opciite za opciite na menito*!*/
+    margin-left: 50px;
+
+}
+
+.leaf{
+    position: absolute;
+    top: 15px;
+    height: 120px;
+    width:120px;
+    margin-top: -20px;
+}
+
+/*INDEX*/
+#naslov{
+
+    color: #92CD00;
+    font-size: 13px;
+    margin-top: 70px;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 100px;
+    font-family: Arial;
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+
+.tekst{
+
+    color:#192402;
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing:1.5px;
+    margin: 20px 350px -140px 10px;
+    /*display: flex;*/
+
+}
+
+footer{
+    position: relative;
+    height: 35px;
+    background: #81b518;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    line-height: 30px;
+}
+
+#slika1{
+    position: relative;
+    margin-left: -10px;
+    padding-bottom: 10px;
+    margin-bottom:-20px;
+    left: 460px;
+    top:-130px;
+
+}
+
+/*servisi*/
+/*sedum pravila na veb dizajnot - servis*/
+.naslov2{
+    color: #92CD00;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 1px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    height: 50px;
+    font-family: Arial;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+/*lista*/
+.tekst2{
+    color:#192402;
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing:2px;
+    margin: 20px 350px 20px -20px;
+}
+
+#slika2{
+    position: relative;
+    margin-left: -10px;
+    padding-bottom: 10px;
+    margin-bottom:-20px;
+    left: 435px;
+    top:-155px;
+}
+
+/*ZANAS*/
+/*TRITE VEB DZIAJN FILOZOFII*/
+.naslov3{
+    color: #92CD00;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 1px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    height: 50px;
+    font-family: Arial;
+    float: left;
+    width: 50%;
+    text-align: center;
+
+}
+
+.tekst3{
+    color:#192402;
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing:2px;
+    margin: 20px 350px -100px 20px;
+}
+
+#slika3{
+    position: relative;
+    margin-left: -10px;
+    padding-bottom: 10px;
+    margin-bottom:-20px;
+    left: 460px;
+    top:-180px;
+}
+
+/*KONTAKT*/
+
+.naslov4{
+    color: #92CD00;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 1px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    height: 50px;
+    font-family: Arial;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.tekst4{
+    color:#192402;
+    font-family: Arial;
+    font-size: 15px;
+    letter-spacing:2px;
+    margin: 20px 350px 150px 20px;
+}
+
+#slika4{
+    position: relative;
+    margin-left: -10px;
+    padding-bottom: 10px;
+    margin-bottom:-20px;
+    left: 460px;
+    top:-230px;
+}
+
+/*NAJAVA*/
+
+.naslov5{
+    color: #92CD00;
+    font-size: 12px;
+    margin-top: 40px;
+    margin-left: 1px;
+    margin-bottom: 50px;
+    padding-right: 20px;
+    height: 50px;
+    font-family: Arial;
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+
+.tekst5{
+    color:#192402;
+    font-family: Arial;
+    font-size: 18px;
+    letter-spacing:2px;
+    margin: 140px 300px -50px 20px;
+
+}
+
+.linija{
+    text-decoration: underline;
+}
+
+#slika5{
+    position: relative;
+    margin-left: -10px;
+    padding-bottom: 10px;
+    margin-bottom:-20px;
+    left: 460px;
+    top:-160px;
+}
